@@ -9,6 +9,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .scroll-indicator {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .scroll-indicator span {
+            display: block;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .scroll-arrow {
+            font-size: 24px;
+            color: #666;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -35,12 +68,10 @@
                 <a href="#contact" class="btn-secondary">Get In Touch</a>
             </div>
         </div>
-        <p>
         <div class="scroll-indicator">
             <span>Scroll Down</span>
             <div class="scroll-arrow">↓</div>
         </div>
-        </p>
     </section>
 
     <!-- About Section -->
@@ -72,7 +103,7 @@
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
-                        <span class="stat-number">50+</span>
+                        <span class="stat-number">100+</span>
                         <span class="stat-label">Courses Designed</span>
                     </div>
                     <div class="stat-item">
