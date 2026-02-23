@@ -5,10 +5,10 @@
 :root {
     /* Color Palette */
     --cream: #ddfbfc;           /* Main background */
-    --beige: #ccc5b9;           /* Secondary background */
+    --beige: #f2fafa;           /* Secondary background */
     --dark-gray: #403d39;       /* Body text */
     --charcoal: #252422;        /* Headlines */
-    --accent: #eb5e28;          /* Accent/CTA */
+    --accent: #3fc8ee;          /* Accent/CTA */
     
     /* Typography - Use these font families or replace with Le Monde Livre and Acumin Pro if you have them */
     --font-headline: 'Lora', serif;              /* Fallback for Le Monde Livre */
